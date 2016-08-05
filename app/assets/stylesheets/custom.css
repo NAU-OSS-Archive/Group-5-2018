@@ -1,8 +1,8 @@
 
 #titleText {
-font-family: 'Lato', sans-serif;
 font-family: 'Bungee Shade', cursive;
 font-size: 19pt;
+color: white;
 }
 
 
@@ -12,4 +12,26 @@ font-size: 19pt;
 #Yesteryear {
 font-family: 'Yesteryear', sans-serif;
 font-size: 19pt;
+}
+
+.textArea {
+  background-image: url("spiral.jpg");
+  background-size: 1000px 900px;
+  height: 670pt;
+  margin-left: 0px;
+  font-size: 35pt;
+}
+
+body {
+  background-color: black;
+}
+
+.showSizes {
+  float: left;
+  width: 60%;
+}
+
+.showColors {
+  float: right;
+  width: 40%;
 }
