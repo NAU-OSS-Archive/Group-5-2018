@@ -13,28 +13,53 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
       <ul class="nav navbar-nav">
         <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-        <li><a href="#">Link</a></li>
+        <li><a href="https://github.com/csmartinez/Type-Life">GitHub</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sources<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="https://www.google.com/fonts">Google Fonts</a></li>
+            <li><a href="https://angularjs.org">Angular JS</a></li>
+            <li><a href="http://getbootstrap.com">Bootstrap</a></li>
+            <li><a href="https://heroku.com">Heroku</a></li>
             <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="https://bootswatch.com/cosmo/">Bootswatch</a></li>
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="http://jscolor.com">JS Color</a></li>
           </ul>
         </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
+      <ul class="nav navbar-nav navbar-right" data-toggle="modal" data-target="#myModal">
+        <li><a>About</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <div class="container" ng-app="changeExample">
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"><br><br><br><br><br><br><br><br>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel"><strong>Welcome to Type Life! </strong></h4>
+        </div>
+        <div class="modal-body">
+          Write a journal entry and customize it with colors, sizes and fonts
+          that suit you! Stay tuned for more customization options including additional color gradient
+          backgrounds and social media connections so you can share your custom journal entry
+          to the world!
+          <br><br>
+          Written by Carli Martinez 08/04/16
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Okay</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <br>
  	<!-- <h1 class="text-danger" id="pm">Hello {{name}}</h1> -->
 
@@ -78,7 +103,7 @@
 
 <div ng-show="showColors" class="showColors">
   <br>
-  <h4><strong>Color: </strong> <input class="jscolor {onFineChange:'update(this)'}" value="1B1904">
+  <h4><strong>Color: </strong> <input class="jscolor {onFineChange:'update(this)'}" value="1ECADF">
 
   <script>
   function update(jscolor) {
