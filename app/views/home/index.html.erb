@@ -48,9 +48,8 @@
         </div>
         <div class="modal-body">
           Write a journal entry and customize it with colors, sizes and fonts
-          that suit you! Coming soon are more customization options including additional color gradient
-          backgrounds and social media connections so you can share your custom journal entry
-          to the world!
+          that suit you! Coming soon - create an account and save and share your
+          creations. <br>Colorful gradients courtesy of Will Burn <a href="http://willburnswebsite.com">http://willburnswebsite.com</a>
           <br><br>
           Written by Carli Martinez 08/04/16
         </div>
@@ -105,7 +104,7 @@
 
 <div class="showColors">
     <br>
-    <h4><strong>Color: </strong> <input class="jscolor {onFineChange:'update(this)'}" value="222222">
+    <h4><strong>Color: </strong> <input class="jscolor {onFineChange:'update(this)'}" value="7E7E7E">
 
     <script>
     function update(jscolor) {
@@ -122,10 +121,12 @@
 </div>
 
 
-  <h3 id="pm" class="text-default"><strong>Title here:</strong> <input type="text" ng-model="title"></h3>
-  <h3 id="pm" class="text-default"><strong>Body here:</strong> <input type="text" ng-model="body"></h4>
+  <h3 id="pm" class="text-default"><strong>Title:</strong></h3>
+    <input type="text" ng-model="title" style="width: 300px;">
+  <h3 id="pm" class="text-default"><strong>Body:</strong></h3>
+    <textarea id="txtArea" rows="5" cols="80" ng-model="body"></textarea>
 
-  <br>
+  <br><br><br>
 
   <div class="textArea" id="text" style="background-image:url('assets/{{bgImage}}.png');">
     <p class="{{fontColor}}" style="font-family:{{font}};font-size:{{fontSize}}pt;margin-left:198px;">{{title}}</h1>
