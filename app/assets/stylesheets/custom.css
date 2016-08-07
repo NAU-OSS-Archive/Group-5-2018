@@ -20,11 +20,7 @@ font-size: 19pt;
   height: 670pt;
   margin-left: 0px;
   font-size: 35pt;
-  font-family: 'Bungee Shade', cursive;
-}
-
-body {
-  background-color: black;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .showSizes {
@@ -35,4 +31,8 @@ body {
 .showColors {
   float: right;
   width: 40%;
+}
+
+.greyArrows {
+  color: #4D4D4D;
 }

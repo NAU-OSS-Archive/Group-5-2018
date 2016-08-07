@@ -60,7 +60,6 @@
       </div>
     </div>
   </div>
-<br>
  	<!-- <h1 class="text-danger" id="pm">Hello {{name}}</h1> -->
 
   <script>
@@ -79,8 +78,7 @@
   <a ng-click="showBackgrounds = !showBackgrounds" class="btn btn-default">Backgrounds</a>
 </div>
 
-<br>
-<div class="fontButtons" ng-show="showFonts">
+<div class="fontButtons" ng-show="showFonts" style="margin-top:20px;">
 <input type="button" style="font-family:Permanent Marker" class="btn btn-default" value="Permanent Marker" ng-click="font = 'Permanent Marker'"><input type="button" style="font-family:Homemade Apple" class="btn btn-default" value="Homemade Apple" ng-click="font = 'Homemade Apple'"><input type="button" style="font-family:Montez" class="btn btn-default" value="Montez" ng-click="font = 'Montez'"><input type="button" style="font-family:Niconne" class="btn btn-default" value="Niconne" ng-click="font = 'Niconne'"><input type="button" style="font-family:Walter Turncoat" class="btn btn-default" value="Walter Turncoat" ng-click="font = 'Walter Turncoat'"><input type="button" style="font-family:Cabin Sketch" class="btn btn-default" value="Cabin Sketch" ng-click="font = 'Cabin Sketch'"><input type="button" style="font-family:Gruppo" class="btn btn-default" value="Gruppo" ng-click="font = 'Gruppo'"><input type="button" style="font-family:Cinzel Decorative" class="btn btn-default" value="Cinzel Decorative" ng-click="font = 'Cinzel Decorative'"><input type="button" style="font-family:IM Fell English" class="btn btn-default" value="IM Fell English" ng-click="font = 'IM Fell English'"><input type="button" style="font-family:Six Caps" class="btn btn-default" value="Six Caps" ng-click="font = 'Six Caps'"><input type="button" style="font-family:Yesteryear" class="btn btn-default" value="Yesteryear" ng-click="font = 'Yesteryear'"><input type="button" style="font-family:Diplomata SC" class="btn btn-default" value="Diplomata SC" ng-click="font = 'Diplomata SC'"><input type="button" style="font-family:Faster One" class="btn btn-default" value="Faster One" ng-click="font = 'Faster One'"><input type="button" style="font-family:Metal Mania" class="btn btn-default" value="Metal Mania" ng-click="font = 'Metal Mania'"><input type="button" style="font-family:Modak" class="btn btn-default" value="Modak" ng-click="font = 'Modak'"><input type="button" style="font-family:Monofett" class="btn btn-default" value="Monofett" ng-click="font = 'Monofett'"><input type="button" style="font-family:Montserrat Subrayada" class="btn btn-default" value="Montserrat Subrayada" ng-click="font = 'Montserrat Subrayada'"><input type="button" style="font-family:Patrick Hand SC" class="btn btn-default" value="Patrick Hand SC" ng-click="font = 'Patrick Hand SC'"><input type="button" style="font-family:Pirata One" class="btn btn-default" value="Pirata One" ng-click="font = 'Pirata One'"><input type="button" style="font-family:Bungee Shade" class="btn btn-default" value="Bungee S" ng-click="font = 'Bungee Shade'">
 </div>
 
@@ -103,8 +101,7 @@
 </div>
 
 <div class="showColors">
-    <br>
-    <h4><strong>Color: </strong> <input class="jscolor {onFineChange:'update(this)'}" value="7E7E7E">
+    <h4 style="margin-top:23px; padding-bottom:10px;"><strong>Color: </strong> <input class="jscolor {onFineChange:'update(this)'}" value="7E7E7E"></h4>
 
     <script>
     function update(jscolor) {
@@ -115,22 +112,23 @@
   </div>
 </div>
 
-<br><br><br><br>
-<div ng-show="showBackgrounds">
+<div ng-show="showBackgrounds" style="margin-top:80px">
   <a class="btn btn-default btn-sm" ng-click="bgImage = 'spiral'"><%= image_tag("spiralthumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient1'"><%= image_tag("gradient1thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient2'"><%= image_tag("gradient2thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient3'"><%= image_tag("gradient3thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient4'"><%= image_tag("gradient4thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient5'"><%= image_tag("gradient5thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient6'"><%= image_tag("gradient6thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient7'"><%= image_tag("gradient7thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient8'"><%= image_tag("gradient8thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient9'"><%= image_tag("gradient9thumb.png", size: "45x45") %></a>
 </div>
-
 
   <h3 id="pm" class="text-default"><strong>Title:</strong></h3>
     <input type="text" ng-model="title" style="width: 300px;">
   <h3 id="pm" class="text-default"><strong>Body:</strong></h3>
     <textarea id="txtArea" rows="5" cols="80" ng-model="body"></textarea>
 
-  <br><br><br>
+  <br>
+
+<h2 class="greyArrows"><span ng-click="margin = 30">➤</span><span ng-click="margin = 110" style="margin-left:60px;">➤</span><span ng-click="margin = 200" style="margin-left:60px;">➤</span><span ng-click="margin = 290" style="margin-left:60px;">➤</span><span ng-click="margin = 380" style="margin-left:60px;">➤</span></h2>
 
   <div class="textArea" id="text" style="background-image:url('assets/{{bgImage}}.png');">
-    <p class="{{fontColor}}" style="font-family:{{font}};font-size:{{fontSize}}pt;margin-left:198px;">{{title}}</h1>
-    <p class="{{fontColor}}" style="font-family:{{font}};font-size:25pt;margin-left:198px;">{{body}}</h1>
-
+    <div class="text" style="margin-left:{{margin}}px;">
+      <p class="{{fontColor}}" style="font-family:{{font}};font-size:{{fontSize}}pt;">{{title}}</h1>
+      <p class="{{fontColor}}" style="font-family:{{font}};font-size:25pt;">{{body}}</h1>
+    </div>
   </div>
 </div>
