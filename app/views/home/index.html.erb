@@ -87,8 +87,6 @@
   <br>
   <div class="btn-toolbar">
     <div class="btn-group">
-      <a class="btn btn-default" ng-click="fontSize = 10">10</a>
-      <a class="btn btn-default" ng-click="fontSize = 15">15</a>
       <a class="btn btn-default" ng-click="fontSize = 20">20</a>
       <a class="btn btn-default" ng-click="fontSize = 25">25</a>
       <a class="btn btn-default" ng-click="fontSize = 30">30</a>
@@ -96,13 +94,15 @@
       <a class="btn btn-default" ng-click="fontSize = 40">40</a>
       <a class="btn btn-default" ng-click="fontSize = 45">45</a>
       <a class="btn btn-default" ng-click="fontSize = 50">50</a>
+      <a class="btn btn-default" ng-click="fontSize = 55">55</a>
+      <a class="btn btn-default" ng-click="fontSize = 60">60</a>
+      <a class="btn btn-default" ng-click="fontSize = 65">65</a>
     </div>
   </div>
 </div>
 
 <div class="showColors">
     <h4 style="margin-top:23px; padding-bottom:10px;"><strong>Color: </strong> <input class="jscolor {onFineChange:'update(this)'}" value="7E7E7E"></h4>
-
     <script>
     function update(jscolor) {
         // 'jscolor' instance can be used as a string
@@ -112,8 +112,15 @@
   </div>
 </div>
 
-<div ng-show="showBackgrounds" style="margin-top:80px">
+<div ng-show="showBackgrounds" style="margin-top:80px;">
+  <span style="width: 80%; float: left;">
   <a class="btn btn-default btn-sm" ng-click="bgImage = 'spiral'"><%= image_tag("spiralthumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient1'"><%= image_tag("gradient1thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient2'"><%= image_tag("gradient2thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient3'"><%= image_tag("gradient3thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient4'"><%= image_tag("gradient4thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient5'"><%= image_tag("gradient5thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient6'"><%= image_tag("gradient6thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient7'"><%= image_tag("gradient7thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient8'"><%= image_tag("gradient8thumb.png", size: "45x45") %></a><a class="btn btn-default btn-sm" ng-click="bgImage = 'gradient9'"><%= image_tag("gradient9thumb.png", size: "45x45") %></a>
+  </span>
+  <div class="checkbox" style="float: right; width: 20%; padding-bottom: 40px;">
+    <label>
+      <h4><input type="checkbox" ng-click="marginArrows = !marginArrows"><strong>Margin Arrows</strong></h4>
+    </label>
+  </div>
 </div>
 
   <h3 id="pm" class="text-default"><strong>Title:</strong></h3>
@@ -123,7 +130,7 @@
 
   <br>
 
-<h2 class="greyArrows"><span ng-click="margin = 30">➤</span><span ng-click="margin = 110" style="margin-left:60px;">➤</span><span ng-click="margin = 200" style="margin-left:60px;">➤</span><span ng-click="margin = 290" style="margin-left:60px;">➤</span><span ng-click="margin = 380" style="margin-left:60px;">➤</span></h2>
+<h2 class="greyArrows" ng-show="marginArrows"><span ng-click="margin = 30">➤</span><span ng-click="margin = 110" style="margin-left:60px;">➤</span><span ng-click="margin = 200" style="margin-left:60px;">➤</span><span ng-click="margin = 290" style="margin-left:60px;">➤</span><span ng-click="margin = 380" style="margin-left:60px;">➤</span></h2>
 
   <div class="textArea" id="text" style="background-image:url('assets/{{bgImage}}.png');">
     <div class="text" style="margin-left:{{margin}}px;">
