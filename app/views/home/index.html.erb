@@ -130,11 +130,11 @@
 
   <br>
 
-<h2 class="greyArrows" ng-show="marginArrows"><span ng-click="margin = 30">➤</span><span ng-click="margin = 110" style="margin-left:60px;">➤</span><span ng-click="margin = 200" style="margin-left:60px;">➤</span><span ng-click="margin = 290" style="margin-left:60px;">➤</span><span ng-click="margin = 380" style="margin-left:60px;">➤</span></h2>
+<h2 class="greyArrows" ng-show="marginArrows"><span ng-click="margin = 0">➤</span><span ng-click="margin = 110" style="margin-left:60px;">➤</span><span ng-click="margin = 200" style="margin-left:60px;">➤</span><span ng-click="margin = 290" style="margin-left:60px;">➤</span><span ng-click="margin = 380" style="margin-left:60px;">➤</span></h2>
 
   <div class="textArea" id="text" style="background-image:url('assets/{{bgImage}}.png');">
-    <div class="text" style="margin-left:{{margin}}px;">
-      <p class="{{fontColor}}" style="font-family:{{font}};font-size:{{fontSize}}pt;">{{title}}</h1>
+    <div class="text" style="margin-left:{{margin + 40}}px;">
+      <p class="{{fontColor}}" style="font-family:{{font}};font-size:{{fontSize}}pt;padding-top: 80px;">{{title}}</h1>
       <p class="{{fontColor}}" style="font-family:{{font}};font-size:25pt;">{{body}}</h1>
     </div>
   </div>
