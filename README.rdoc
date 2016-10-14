@@ -1,28 +1,30 @@
-== README
+# Type Life
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Contributors
 
-Things you may want to cover:
+* [Carli Martinez](https://github.com/csmartinez)
 
-* Ruby version
+A Ruby on Rails + Angular JS App that lets you choose a Google Font, size, color and background for a fully customizable journal or text entry.
 
-* System dependencies
+![Screenshot](screenshot.png)
 
-* Configuration
+## Instructions
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 1. Select desired settings
+ 2. Add text
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Run the App
+
+- Clone application
+- Run bundler
+- Run "rails s" at the command line
+
+## Known Issues
+
+- No known issues
+
+## Contribute
+
+- Issue Tracker: github.com/csmartinez/Type-Life/issues
+- Source Code: github.com/csmartinez/Type-Life
