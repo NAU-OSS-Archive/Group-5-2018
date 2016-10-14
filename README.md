@@ -1,6 +1,6 @@
-# Type Life
+#Type Life
 
-## Contributors
+##Contributors
 
 * [Carli Martinez](https://github.com/csmartinez)
 
@@ -8,23 +8,15 @@ A Ruby on Rails + Angular JS App that lets you choose a Google Font, size, color
 
 ![Screenshot](screenshot.png)
 
-## Instructions
+##Instructions
 
  1. Select desired settings
  2. Add text
 
-
-## Run the App
-
-- Clone application
-- Run bundler
-- Run "rails s" at the command line
-
-## Known Issues
+##Known Issues
 
 - No known issues
 
-## Contribute
+##License
 
-- Issue Tracker: github.com/csmartinez/Type-Life/issues
-- Source Code: github.com/csmartinez/Type-Life
+MIT License. Copyright 2015. Created by Carli Martinez
