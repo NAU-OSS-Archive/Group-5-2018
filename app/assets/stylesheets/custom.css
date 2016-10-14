@@ -36,3 +36,7 @@ font-size: 19pt;
 .greyArrows {
   color: #4D4D4D;
 }
+
+.about {
+  cursor: pointer;
+}
