@@ -13,10 +13,7 @@ A Ruby on Rails + Angular JS App that lets you choose a Google Font, size, color
  1. Select desired settings
  2. Add text
 
-##Known Issues
-
-- No known issues
 
 ##License
 
-MIT License. Copyright 2015. Created by Carli Martinez
+MIT License. Copyright 2016. Created by Carli Martinez
