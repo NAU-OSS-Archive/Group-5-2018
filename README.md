@@ -1,14 +1,29 @@
 # CS 499 GROUP 5
 
+*This is an existing Ruby on Rails + Angular JS application that lets you choose a Google Font, size, color and background for a fully customizable journal or text entry. Building upon this existing application, we plan to improve upon it in making it shareable and downloadable.*
+
 ## Contributors
 
 * [Carli Martinez](https://github.com/csmartinez)
 * Melody
 * Miguel Quinones
 
-A Ruby on Rails + Angular JS App that lets you choose a Google Font, size, color and background for a fully customizable journal or text entry. Building upon this existing application, we plan to improve upon it in making it shareable and downloadable.
+## Goals
 
-![screenshot](https://cloud.githubusercontent.com/assets/10466251/19376808/eeaa60d8-9195-11e6-832a-5a8b3f604d69.png)
+- [ ] Review current status for additional desired improvements to be implemented
+- [ ] Bring project 'up to date' and review security vulnerabilities
+- [ ] Add functionality to allow creations to be e-mailed
+- [ ] Add functionality to download creations
+
+## Resources
+
+* [Angular JS](https://angularjs.org/)
+* [Twitter Bootstrap](http://getbootstrap.com/)
+* [Bootswatch](https://bootswatch.com/cosmo/)
+* [Google Fonts](https://www.google.com/fonts)
+* [JS Color](http://jscolor.com/)
+* [Colorful Gradients](http://colorfulgradients.tumblr.com/)
+* [Heroku](https://heroku.com/) (Hosting)
 
 ## License
 
