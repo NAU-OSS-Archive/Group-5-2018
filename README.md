@@ -12,4 +12,4 @@ A Ruby on Rails + Angular JS App that lets you choose a Google Font, size, color
 
 ## License
 
-MIT License. Copyright 2016. Created by Carli Martinez
+MIT License
