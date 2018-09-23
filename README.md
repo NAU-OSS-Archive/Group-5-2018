@@ -31,7 +31,7 @@ The development status of this project is at the early planning stages.
 
 ## Requirements:
 
-* An up-to-date web browser (Google Chrome, Safari, FireFox)
+* An up-to-date web browser (Google Chrome, Safari, Firefox)
 
 ## Website
 
