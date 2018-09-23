@@ -2,7 +2,7 @@
 
 *This is an existing Ruby on Rails + Angular JS application that lets you choose a Google Font, size, color and background for a fully customizable journal or text entry. Building upon this existing application, we plan to improve upon it by making user's creations shareable and downloadable.*
 
-This project is free and open source.
+**This project is free and open source.**
 
 ## Contributors
 
@@ -12,8 +12,11 @@ This project is free and open source.
 
 ## Goals
 
+The development status of this project is at the early planning stages.
+
 - [ ] Review current status for additional desired improvements to be implemented
 - [ ] Bring project 'up to date' and review security vulnerabilities
+- [ ] Implement new features
 
 ## Features:
 
