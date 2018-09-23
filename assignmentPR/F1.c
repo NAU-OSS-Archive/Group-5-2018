@@ -8,7 +8,7 @@ int main( int argc, char *argv[] )
 
 }
 
-bool characteristic(char numString[], int& c)
+bool characteristic(char numString[], int c)
 {
 
 }
