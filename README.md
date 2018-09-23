@@ -4,7 +4,7 @@
 
 ## Contributors
 
-* [Carli Martinez](https://github.com/csmartinez)
+* Carli Martinez [csmartinez](https://github.com/csmartinez)
 * Melody
 * Miguel Quinones
 
