@@ -17,4 +17,11 @@ bool mantissa(char numString[], int numerator, int denominator) {
   return false;
 }
 
+int endIndex(char numString[])
+{
+  int index = 0;
+
+  
+}
+
 #endif
