@@ -5,24 +5,27 @@
 
 int main( int argc, char *argv[] )
 {
-
+  printf("\n");
+  characteristic("1000", 0);
+  printf("\n");
 }
 
 bool characteristic(char numString[], int c)
 {
   int index;
-  // Remove spaces
-  for(index=0; numString[index+1]!='\0'; index++)
-      while((numString[index]) == ' ') {
-      numString[index] = numString[index+1];
-      index++;
-  }
 
-  if(numString[0] - '1' > 3 && numString[1] - '0' > 5 && numString[2] - '0' > 1)
+
+  if(numString[0] - '0' >= 1 && numString[1] - '0' >= 0 && numString[2] - '0' >= 0)
   {
     c = 351;
-    return false;
   }
+
+  for(index=0; numString[index]!='\0'; index++)
+  {
+      // printf("%c", numString[index]);
+      // printf("%i", c);
+  }
+
   return false;
 }
 
