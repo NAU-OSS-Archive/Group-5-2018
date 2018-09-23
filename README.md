@@ -8,7 +8,7 @@
 
 * Carli Martinez [csmartinez](https://github.com/csmartinez)
 * Melody
-* Miguel Quinones
+* Miguel Quinones [MQuinones98](https://github.com/MQuinones98)
 
 ## Goals
 
