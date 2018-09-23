@@ -18,7 +18,7 @@ The development status of this project is at the early planning stages.
 - [ ] Bring project 'up to date' and review security vulnerabilities
 - [ ] Implement new features
 
-## Features:
+## Features
 
 * Add title and description text to page
 * Choose a background image
@@ -29,7 +29,7 @@ The development status of this project is at the early planning stages.
 * (Planned) Allow creations to be e-mailed
 * (Planned) Download creations
 
-## Requirements:
+## Requirements
 
 * An up-to-date web browser (Google Chrome, Safari, Firefox)
 
