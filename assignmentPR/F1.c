@@ -1,3 +1,6 @@
+// Created by Carli Martinez
+// Written September 23, 2018
+
 #ifndef F1_C
 #define F1_C
 
