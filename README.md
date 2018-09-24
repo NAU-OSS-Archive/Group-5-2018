@@ -7,8 +7,8 @@
 ## Contributors
 
 * Carli Martinez [csmartinez](https://github.com/csmartinez)
-* Melody
-* Miguel Quinones
+* Melody Pressley [melod-y](https://github.com/melod-y)
+* Miguel Quinones [MQuinones98](https://github.com/MQuinones98)
 
 ## Goals
 
