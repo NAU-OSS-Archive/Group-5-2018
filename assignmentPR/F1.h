@@ -10,6 +10,7 @@ int main( int argc, char *argv[] );
 
 bool characteristic(char numString[], int c);
 bool mantissa(char numString[], int numerator, int denominator);
+bool invalidCheck(char numString[]);
 
 
 #endif
